@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------------
+- Syndicate+ on Acorn RISC OS                                                  -
+--------------------------------------------------------------------------------
+
+Syndicate+ can be installed and played using RPCEmu + RISC OS 3.71:
+- RPCemu: https://www.marutan.net/rpcemu/index.php
+- RISC OS 3.7.1: https://www.marutan.net/rpcemu/easystart.html
+  (pre-installed and configured for easy use with RPCemu)
+
+Syndicate+ installation on RISC OS:
+- Mount floppy image (.adf) using emulator menu item "Disc"
+- Mount CD-ROM image (.iso) using emulator menu item "Disc"
+- Open emulated harddisk using button in task bar
+- Open emulated floppy using button in task bar
+- Run installer from emulated floppy disk
+- Drag '!Syndicate' icon from installer window to harddisk window to tell
+  installer where to install (similar to 'Browse...' on Windows/Linux)
+-> Once installed, game files are accessible on LINUX HOST via:
+   '<rpcemu-path>/hostfs/Apps/!Syndicate'
+   (depending on selected installation location)
+
+Source floppy + CD-ROM:
+https://arcarc.nl/games.html
+
+--------------------------------------------------------------------------------
+
+Syndicate+ on RISC OS Direct 5.27:
+- Although Syndicate+ can be installed, it cannot be run due module 'DataVox'
+  not being 32-bit compatible (not sure though if this is the ONLY issue or just
+  the FIRST issue that pops up, i.e. the entire application might not be 32-bit
+  compatible; legacy applications seem to be 26-bit)
+- There is a pre-installed emulator, AemulorRPC, which seems to be intended to
+  run legacy 26-bit applications on 32-bit RISC OS; however, when running Synd-
+  icate+ using this emulator, there seem to be issues related to insufficient
+  RAM (window with error messages pops up)
+-> Once installed, game files are accessible on LINUX HOST via:
+   '<rpcemu-path>/hostfs/Apps/!Syndicate'
+   (depending on selected installation location)
+
+--------------------------------------------------------------------------------
+
+RPCEmu forum (e.g. for bug reports):
+https://www.stardot.org.uk/forums/viewforum.php?f=90
+
+RISC OS GUI resolution:
+Screen resolution may be changed using the Monitor symbol/button in the task
+bar (to the right).
+
+RISC OS GUI and mouse input:
+- Use the MIDDLE mouse button to bring up CONTEXT MENUS
+- Not exactly sure what the RIGHT mouse button does (makes icons disappear when
+  being used twice on them?! Maybe like a 'Cut' function?)
+- Use the LEFT mouse button for everything else
+
+--------------------------------------------------------------------------------
+- Date: 09/11/25 - 09/21/25                                                    -
+--------------------------------------------------------------------------------

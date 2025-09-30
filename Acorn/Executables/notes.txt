@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+- Syndicate+ on Acorn RISC OS                                                  -
+--------------------------------------------------------------------------------
+
+Syndicate+ Acorn RISC OS Executable:
+
+Executable does not seem to contain ANY human-readable strings, which suggests
+that there might be some sort of compression or obfuscation going on (or an
+encoding that does NOT rely on byte boundaries (e.g. something like 26-bit
+values, which apparently was the original machine's bitness; see https://en.
+wikipedia.org/wiki/26-bit_computing)
+
+-> Executable format (AIF, ARM Image Format) is described here:
+   https://developer.arm.com/documentation/dui0041/c/ARM-Image-Format
+
+-> Are there any hex editors / file viewers for Acorn RISC OS that might
+   allow further inspection?
+
+-> Might this simply be an ENDIANNESS issue?
+
+--------------------------------------------------------------------------------
+- Date: 09/11/25 - 09/21/25                                                    -
+--------------------------------------------------------------------------------

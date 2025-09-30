@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+- Importing MacSyndicate into Ghidra                                           -
+--------------------------------------------------------------------------------
+
+1. Download and install Open JDK 11: OpenJDK11U-jdk_x64_windows_hotspot_11.0.28_6.msi
+   (https://adoptium.net/temurin/releases?version=11)
+
+2. Download and install Ghidra 10.x: ghidra_10.1.3_PUBLIC_20220421.zip
+   (https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_10.1.3_build)
+
+3. Extract M68k Mac Reversing Tools: m68k_mac_reversing_tools-main_(modified).zip
+
+   CAUTION: included archive contains slightly modified version of:
+            https://github.com/ubuntor/m68k_mac_reversing_tools
+
+4. Follow instructions provided in section "Ghidra Instructions" of "README.md"
+   of M68k Mac Reversing Tools (for step 5 of those instructions, use included
+   file "dump_macsyndicate")
+
+--------------------------------------------------------------------------------
+- Date: 09/20/25 - 09/30/25                                                    -
+--------------------------------------------------------------------------------

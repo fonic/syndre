@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------
+- Emulating Classic Mac OS for MacSyndicate using Mini vMac                    -
+--------------------------------------------------------------------------------
+
+1. Extract Mini vMac emulator: mini-vmac-36.04.src.tgz
+   (https://www.gryphel.com/c/minivmac/)
+
+2. Extract ROMs: mini-vmac-roms.zip
+   (into same folder as emulator above)
+
+3. Extract scripts: mini-vmac-scripts.tar.gz
+   (into same folder as emulator above)
+
+4. Extract HDD image: mini-vmac-hdd.zip
+   (into same folder as emulator above)
+
+5. Configure and build emulator:
+   $ minivmac-cfgmake.sh -t lx64 -m II -hres 960 -vres 600 -depth 3 -magnify 1 -speed 3 -bg 1
+
+   NOTE: emulator can only be configured at COMPILE time; option
+         '-m II' is mandatory, everything else may be customized
+
+6. Run emulator:
+   $ minivmac-run.sh hdd.img
+
+--------------------------------------------------------------------------------
+
+HDD image contains:
+
+- Classic Mac OS 7.5
+- Stuffit Expander 5.5
+- THINK C 5.0.2 (C Compiler)
+- MacsBug 6.2.2 (Debugger)
+- MacSyndicate
+
+--------------------------------------------------------------------------------
+- Date: 09/17/25 - 09/30/25                                                    -
+--------------------------------------------------------------------------------

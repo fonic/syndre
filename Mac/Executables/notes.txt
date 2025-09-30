@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+- Notes on MacSyndicate Executables                                            -
+--------------------------------------------------------------------------------
+
+Classic Mac OS uses HFS/HFS+, which stores files in a unique way
+(see https://en.wikipedia.org/wiki/Classic_Mac_OS#File_systems).
+
+Files were extracted from .toast images using HFVExplorer on Windows
+(see https://www.emaculation.com/doku.php/hfvexplorer).
+
+Dump was created using slightly modified version of 'dump.py' of M68k Mac
+Reversing Tools (https://github.com/ubuntor/m68k_mac_reversing_tools) and
+.toast image of MacSyndicate.
+
+--------------------------------------------------------------------------------
+- Date: 09/13/25 - 09/30/25                                                    -
+--------------------------------------------------------------------------------
