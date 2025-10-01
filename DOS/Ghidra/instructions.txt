@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+- Importing Syndicate DOS into Ghidra                                          -
+--------------------------------------------------------------------------------
+
+1. Download and install Open JDK 17: OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.msi
+   (https://adoptium.net/temurin/releases?version=17)
+
+2. Download and extract Ghidra 10.2.2: ghidra_10.2.2_PUBLIC_20221115.zip
+   (https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_10.2.2_build)
+
+3. Run/Open Ghidra 10.2.2
+
+4. Install Ghidra LX/LE loader extension using 'File -> Install Extensions...':
+   ghidra_10.2.2_PUBLIC_20230131_ghidra-lx-loader.zip
+   (https://github.com/yetmorecode/ghidra-lx-loader/releases/tag/v10.2)
+
+5. Import Syndicate DOS executable using 'File -> Import File...'
+   (Corrent format and language will be detected automatically)
+
+--------------------------------------------------------------------------------
+- Date: 09/30/25 - 10/01/25                                                    -
+--------------------------------------------------------------------------------
