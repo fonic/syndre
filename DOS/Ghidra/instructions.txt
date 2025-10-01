@@ -15,7 +15,10 @@
    (https://github.com/yetmorecode/ghidra-lx-loader/releases/tag/v10.2)
 
 5. Import Syndicate DOS executable using 'File -> Import File...'
-   (Corrent format and language will be detected automatically)
+   (correct format and language will be detected automatically)
+
+   NOTE: to import exported data from IDA, select an .xml file
+         here instead of an .exe
 
 --------------------------------------------------------------------------------
 - Date: 09/30/25 - 10/01/25                                                    -
