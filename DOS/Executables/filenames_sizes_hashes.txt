@@ -1,4 +1,5 @@
 Size    Hash (SHA-256)                                                    Name       Description
+337353  1e2bc242cd831aa3b13926c7fdc2bb30d04a1362ab8ae482d79cdb58506da3bd  MAIN.EXE   Syndicate Beta Demo (ENG)
 358345  165403dd3301103c5d578520fba72b646c3e616562a84afd2205b4dc57843ca3  MAIN.EXE   Syndicate Demo (ENG)
 391737  e707b9f22c8f7fbac5621ac71ce6dad4da7905061e038db909b0a0bf8bdbcb16  MAIN.EXE   Syndicate American Revolt Demo (ENG,FRE,ITA)
 473145  33f90f361543c5742cb47bc22468d8b374a185753ca3cbe433f93b616e5ff9e4  GMAIN.EXE  Syndicate (GER)
