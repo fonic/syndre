@@ -1,3 +1,3 @@
 # Synd-RE
 
-Collection of related resources.
+Syndicate reverse engineering effort. Collection of related resources.
